@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Photo Carousel</h1>
+    </header>
+    <div class="carousel">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="/image/photo1.jpg" alt="Photo 1">
+                </div>
+                <div class="card-back">
+                    <p>Information about Photo 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="/image/photo2.jpg" alt="Photo 2">
+                </div>
+                <div class="card-back">
+                    <p>Information about Photo 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="/image/photo3.jpg" alt="Photo 3">
+                </div>
+                <div class="card-back">
+                    <p>Information about Photo 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Photo Carousel</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
